@@ -269,7 +269,7 @@
 		9A916B6189D130CD05F9D433A76FEDD8 /* Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = Guardian/Authentication/Authentication.swift; sourceTree = "<group>"; };
 		9CDC9D3C717CE5867BA38054017A0931 /* JWTDecodeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTDecodeError.swift; path = JWTDecode/JWTDecodeError.swift; sourceTree = "<group>"; };
 		9D6C12D0C6CC84DFFB4BA1014C7F161E /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Guardian/API/Models.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3B959A342CEB0D0E975F0D6A5E958A3 /* JWTDecode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTDecode.debug.xcconfig; sourceTree = "<group>"; };
 		A4169193586F86CAA4EC8C5A09B1F11F /* CredentialsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManager.swift; path = Auth0/CredentialsManager.swift; sourceTree = "<group>"; };
 		A6087D17D6E32ACDB678A34F5BB1E5E7 /* Management.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Management.swift; path = Auth0/Management.swift; sourceTree = "<group>"; };
@@ -482,7 +482,6 @@
 				7B52AEBA3D7DBC19CA00F3EE769243DF /* RSA+Utils.swift */,
 				08994847936196CBC82A81BEFDD2603A /* Support Files */,
 			);
-			name = Guardian;
 			path = Guardian;
 			sourceTree = "<group>";
 		};
@@ -494,7 +493,6 @@
 				F40D7481753BBA172AF31412783F641B /* SimpleKeychainError.swift */,
 				BF39CBA7502CC246CB9564BD46B6B69D /* Support Files */,
 			);
-			name = SimpleKeychain;
 			path = SimpleKeychain;
 			sourceTree = "<group>";
 		};
@@ -515,7 +513,6 @@
 				9CDC9D3C717CE5867BA38054017A0931 /* JWTDecodeError.swift */,
 				9356E018A885BA3C91513CF9BB0C2564 /* Support Files */,
 			);
-			name = JWTDecode;
 			path = JWTDecode;
 			sourceTree = "<group>";
 		};
@@ -606,7 +603,6 @@
 				4B3C0D809E3969BAA2B32A5E755BCF72 /* WebAuthUserAgent.swift */,
 				3D1D38E8C72E8A626437A88878398259 /* Support Files */,
 			);
-			name = Auth0;
 			path = Auth0;
 			sourceTree = "<group>";
 		};
@@ -807,6 +803,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8FDF7ADE2A64168900EE8346348B2668 = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
